@@ -1,0 +1,30 @@
+name: ai_study_planner
+description: AI Study Planner with study schedules, Pomodoro, flashcards, progress analytics, and timetable scanning.
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  flutter_tts: ^4.2.3
+  shared_preferences: ^2.5.3
+  flutter_local_notifications: ^19.4.2
+  image_picker: ^1.1.2
+  google_mlkit_text_recognition: ^0.15.0
+  timezone: ^0.10.1
+  vibration: ^3.1.3
+  sqflite: ^2.4.4+1
+  path: ^1.9.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
